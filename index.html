@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jessica's World</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <a class="header" href="#"><h1>Jessica's World</h1></a>
     <nav>
     <ul>
     <li><a href= "https://github.com/Jfrancis0518">Github</a></li>
-    <li><a href= "About-Me">About Me</a></li>
-    <li><a href= "Portfolio">Portfolio</a></li>
-    <li><a href= "Contact">Contact</a></li>
+    <li><a href= "#about-Me">About Me</a></li>
+    <li><a href= "#portfolio">Portfolio</a></li>
+    <li><a href= "#contact">Contact</a></li>
     </ul>
     </nav>
-    <h1>Jessica's World</h1>
-    <main class="content"
+    </header>
+    <main class="content">
+    <h3 id="about-me">About Me</h3>
+    <h3 id="Portfolio">Portfolio</h3>
 
     <form>
-        <h4>Contact Me</h4>
+        <h4 id="contact">Contact Me</h4>
         <ul>
             <li>
                 <label class="text-right" for="name">Name:
@@ -31,11 +36,12 @@
             </li>
             <li>
                 <label class="text-right" for="number">Phone:</label>
-                <input type="text" id="Number"
+                <input type="text" id="Number">
             </li>
         </ul>
      
     </form>
     <button type="submit">SEND</button>
+    </main>
 </body>
 </html>
