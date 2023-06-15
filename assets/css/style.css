@@ -20,13 +20,13 @@ header {
         text-shadow: #000 2px 2px 0.2rem;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    
+
     h1 {
     color: white;
 }
 
 body {
-    background-color: green;
+    background-color: black;
 
 }
 
@@ -41,4 +41,19 @@ img {
 .content {
     color: white;
     text-align: center;
+}
+
+.about-me {
+    border-style: dashed;
+    border-color: green;
+}
+
+.portfolio {
+    border-style: dashed;
+    border-color: green;
+}
+
+.contact {
+    border-style: dashed; 
+    border-color: green;
 }
