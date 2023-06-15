@@ -2,7 +2,15 @@
     padding: 40px;
     text-align: center;
     font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: silver;
+    border-color: silver;
 }
+
+header {
+    text-align: center;
+}
+
 
 body {
     background-color: turquoise;
@@ -14,3 +22,4 @@ body {
 img {
     border-radius: 50%;
 }
+
