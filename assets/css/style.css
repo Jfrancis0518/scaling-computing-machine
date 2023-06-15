@@ -2,7 +2,8 @@
     padding: 0%;
     text-align: center;
     font-size: 25px;
-    font: white;
+    color: white;
+
 }
 
 header {
@@ -17,18 +18,31 @@ header {
         align-items: center;
         justify-content: center;
         text-shadow: #000 2px 2px 0.2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
+nav {
+    color: white;
+}
 
+h1 {
+    color: white;
+}
 
 body {
-    background-color: turquoise;
+    background-color: green;
 
 }
+
 
 
 img {
     align-content:center;
     border-radius: 50%;
 
+}
+
+.content {
+    color: white;
+    text-align: center;
 }
