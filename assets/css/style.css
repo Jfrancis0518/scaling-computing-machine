@@ -2,7 +2,7 @@
     padding: 0%;
     text-align: center;
     font-size: 25px;
-
+    font: white;
 }
 
 header {
@@ -10,9 +10,14 @@ header {
     font-size: 15px;
     border-radius: 20px;
     padding: 0%;
-    background-color: whitesmoke ;
-
-}
+    
+    background: left / cover url('./images/coding.jpg');
+        display: flex;
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+        text-shadow: #000 2px 2px 0.2rem;
+    }
 
 
 
