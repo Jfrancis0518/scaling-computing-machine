@@ -2,28 +2,29 @@
     padding: 20px;
     text-align: center;
     font-size: 25px;
-    color: silver;
+    color: blueviolet;
 }
 
 header {
     text-align: center;
     font-size: 15px;
     border-radius: 20px;
-    background-image: ;
+
 }
 
 .box {
+    background-color: black;
     height: 300px;
 }
 
 body {
     background-color: turquoise;
+
 }
-.logo {
-    background-image: (webkit-gradient);
-}
+
 
 img {
     border-radius: 50%;
+    align-content: center;
 }
 
