@@ -6,13 +6,15 @@
 
 }
 
+
+
 header {
     text-align: center;
     font-size: 15px;
     border-radius: 20px;
     padding: 0%;
     
-    background: left / cover url('./images/coding.jpg');
+    background-color: black;
         display: flex;
         height: 120px;
         align-items: center;
@@ -26,7 +28,8 @@ header {
 }
 
 body {
-    background-image: url('./images/stock-image.jpg')
+    background-image: url('./images/option-1.jpg')
+    
     
 
 }
@@ -34,7 +37,7 @@ body {
 
 
 img {
-    align-content:center;
+    align-content:left;
     border-radius: 30%;
     border-style: dotted;
 
@@ -48,6 +51,7 @@ img {
 .about-me {
     border-style: dashed;
     border-color: green;
+    border:color(from color srgb r g b)
 }
 
 .portfolio {
