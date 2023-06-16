@@ -48,6 +48,13 @@ img {
     text-align: center;
 }
 
+label,
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .about-me {
     border-style: dashed;
     border-color: green;
